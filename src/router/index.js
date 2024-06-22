@@ -5,13 +5,14 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      redirect: '/pan'
     },
     {
       path: '/:categoria',
       name: 'productos',
       component: () => import('@/views/ProductosView.vue'),
       props: true
-    }
+    },
    
   ]
 })

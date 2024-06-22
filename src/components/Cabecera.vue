@@ -11,7 +11,7 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/café">
+                    <router-link to="/cafe">
                         Café
                     </router-link>
                 </li>
